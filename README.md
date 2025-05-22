@@ -11,6 +11,9 @@
 
 ## Requirements
 * Python >= 3.8
+* PyTorch >= 1.8
+If you need GPU (CUDA) acceleration with PyTorch, please install the appropriate CUDA-enabled version manually.  
+You can find the installation instructions on the [PyTorch](https://pytorch.org/get-started/locally/).
 * Dependencies are automatically installed when you run `Run.bat`.
 
 ## Dependencies
@@ -36,6 +39,9 @@
 
 ## 필수 사항
 * 파이썬 3.8 이상
+* PyTorch 1.8 이상
+PyTorch의 GPU (CUDA) 가속이 필요하다면 사용자의 CUDA 환경에 맞는 버전을 수동으로 설치해야 합니다.
+설치 방법은 [PyTorch](https://pytorch.org/get-started/locally/)를 참고하세요.
 * 종속성은 `Run.bat`을 실행 할 때 자동으로 설치 됩니다.
 
 ## 종속성
