@@ -24,7 +24,7 @@
 
 ## ⚠️To use GPU (CUDA) acceleration
 * to use GPU (CUDA) acceleration with PyTorch, please install the appropriate CUDA-enabled version manually.  
-* You can find the installation instructions on the [PyTorch](https://pytorch.org/get-started/locally/).
+* You can find the installation instructions on the [PyTorch](https://pytorch.org/get-started/previous-versions/).
 
 ---
 
@@ -54,4 +54,4 @@
 
 ## ⚠️GPU (CUDA) 가속을 사용하려면
 * PyTorch의 GPU (CUDA) 가속을 사용 하려면 사용자의 CUDA 환경에 맞는 버전을 수동으로 설치해야 합니다.
-* 설치 방법은 [PyTorch](https://pytorch.org/get-started/locally/)를 참고하세요.
+* 설치 방법은 [PyTorch](https://pytorch.org/get-started/previous-versions/)를 참고하세요.
