@@ -3,9 +3,11 @@ import numpy
 import os
 from PIL import Image
 import imageio
+import torch
 from ultralytics import YOLO
 
 model = YOLO('best.pt')
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 def extract_main_eyes(image_path):
     ddsimg = Image.open(image_path)
@@ -16,7 +18,7 @@ def extract_main_eyes(image_path):
     img_np = numpy.array(ddsimg)
     original_h, original_w = img_np.shape[:2]
 
-    results = model(img_np)
+    results = model(img_np, device=device)
     
     boxes = results[0].boxes
     if boxes is None or boxes.data is None or len(boxes.data) == 0:
