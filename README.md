@@ -6,7 +6,7 @@
 * Clone this repository or download it as a ZIP file.
 * Unzip the file and create an `input` directory.
 * Place the image files you want to convert (`.dds`, `.png`, `.jpg`, `.jpeg`) into the `input` directory.
-* Run `Run.bat` file. (Auto install dependencies)
+* Run `Run.bat` file.
 * Converted textures are saved in the `output` directory.
 
 ## Requirements
