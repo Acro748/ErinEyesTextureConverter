@@ -6,13 +6,12 @@
 * Clone this repository or download it as a ZIP file.
 * Unzip the file and create an `input` directory.
 * Place the image files you want to convert (`.dds`, `.png`, `.jpg`, `.jpeg`) into the `input` directory.
-* Run `Run.bat` file.
+* Run either `Run.bat`(for CPU) or `Run_cuda.bat`(for GPU) file.
 * Converted textures are saved in the `output` directory.
 
 ## Requirements
 * Python >= 3.8
-* PyTorch >= 1.8
-* Dependencies are automatically installed when you run `Run.bat`.
+* Dependencies are automatically installed when you run `Run.bat` or `Run_cuda.bat`.
 
 ## Dependencies
 * ultralytics
@@ -22,9 +21,11 @@
 * pillow
 * imageio
 
-## ⚠️To use GPU (CUDA) acceleration
-* to use GPU (CUDA) acceleration with PyTorch, please install the appropriate CUDA-enabled version manually.  
-* You can find the installation instructions on the [PyTorch](https://pytorch.org/get-started/previous-versions/).
+## ⚠️Switch between CPU and GPU (CUDA) acceleration
+1. Open CMD.
+2. Enter `pip uninstall torch torchvision torchaudio`.
+3. Enter `y` or `yes` to confirm all uninstall promprts.
+4. Run either `Run.bat`(for CPU) or `Run_cuda.bat`(for GPU) file.
 
 ---
 
@@ -36,13 +37,12 @@
 * 리포지토리를 복제하거나 zip으로 다운로드 합니다
 * 압축을 풀고 `input` 디렉토리를 만듭니다.
 * 변환하고 싶은 이미지 파일(`.dds`, `.png`, `.jpg`, `.jpeg`)들을 `input` 디렉토리에 넣습니다.
-* `Run.bat` 파일을 실행합니다.
+* `Run.bat`(CPU 용) 또는 `Run_cuda.bat`(GPU 용) 파일을 실행합니다.
 * 변환 된 텍스쳐는 `output` 디렉토리에 저장됩니다.
 
 ## 필수 사항
 * 파이썬 3.8 이상
-* PyTorch 1.8 이상
-* 종속성은 `Run.bat`을 실행 할 때 자동으로 설치 됩니다.
+* 종속성은 `Run.bat`또는 `Run_cuda.bat`을 실행 할 때 자동으로 설치 됩니다.
 
 ## 종속성
 * ultralytics
@@ -52,6 +52,8 @@
 * pillow
 * imageio
 
-## ⚠️GPU (CUDA) 가속을 사용하려면
-* PyTorch의 GPU (CUDA) 가속을 사용 하려면 사용자의 CUDA 환경에 맞는 버전을 수동으로 설치해야 합니다.
-* 설치 방법은 [PyTorch](https://pytorch.org/get-started/previous-versions/)를 참고하세요.
+## ⚠️CPU 혹은 GPU (CUDA) 가속으로 전환하려면
+* CMD를 엽니다
+* `pip uninstall torch torchvision torchaudio` 입력합니다.
+* 삭제에 대해 묻는 것에 전부 `y` 또는 `yes` 를 입력합니다.
+* `Run.bat`(CPU 용) 또는 `Run_cuda.bat`(GPU 용) 파일을 실행합니다.
