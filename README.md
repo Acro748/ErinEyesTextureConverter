@@ -6,11 +6,19 @@
 * Clone this repository or download it as a ZIP file.
 * Unzip the file and create an `input` directory.
 * Place the image files you want to convert (`.dds`, `.png`, `.jpg`, `.jpeg`) into the `input` directory.
-* Run `Run.bat` file.
+* Run `Run.bat` file. (Auto install dependencies)
 * Converted textures are saved in the `output` directory.
 
 ## Requirements
 * Python >= 3.8
+* Dependencies are automatically installed when you run `Run.bat`.
+
+## Dependencies
+* ultralytics
+* opencv-python
+* numpy
+* pillow
+* imageio
 
 ---
 
@@ -27,3 +35,12 @@
 
 ## 필수 사항
 * 파이썬 3.8 이상
+* 종속성은 `Run.bat`을 실행 할 때 자동으로 설치 됩니다.
+
+## 종속성
+* ultralytics
+* opencv-python
+* numpy
+* pillow
+* imageio
+
