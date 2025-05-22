@@ -15,6 +15,7 @@
 
 ## Dependencies
 * ultralytics
+* pytorch
 * opencv-python
 * numpy
 * pillow
@@ -39,6 +40,7 @@
 
 ## 종속성
 * ultralytics
+* pytorch
 * opencv-python
 * numpy
 * pillow
